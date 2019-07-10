@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.HomeFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Home" />
+
+        <Button
+            android:id="@+id/openfavs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Go to favs fragment"
+            android:layout_centerInParent="true"/>
+
+        <Button
+            android:id="@+id/opensettings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Go to settings fragment"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/openfavs"
+            android:layout_centerInParent="true"/>
+
+
+    </RelativeLayout>
+
+
+</FrameLayout>
